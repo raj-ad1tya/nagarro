@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0%;
+    color: grey;
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/_tiles/season02/ptv-season2-169.jpg");
+}
+
+h1#top {
+    text-align: center;
+    color: black;
+}
+
+.heading {
+    clear: both;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.w75 {
+    width: 75%;
+    padding: 10px;
+}
+
+.w25 {
+    width: 25%;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    margin: 0px 50px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+img.characters {
+    max-height: 250px;
+}
+
+.pokemon-row {
+    display: none;
+}
+
+button {
+    border-radius: 2px;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    padding: 16px;
+    border: none;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.character-names {
+    color: black;
+    padding-left: 35px;
+}
+
+.containers {
+    background-color: #ffffffed;
+}
+
+.content {
+    padding: 0% 10%;
+}
+
+footer > p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: grey;
+    background-color: #ffffffed;
+}
+
+.pokemon-names {
+    color: black;
+    text-align: center;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.youtube-video {
+    display: block;
+    margin: auto;
+}
+
+input, textarea {
+    background-color: beige;
+    padding: 10px;
+    width: 300px;
+    border: none;
+}
+
+textarea#addr {
+    height: 150px;
+}
+
+input#ordrbtn {
+    background-color: #3f51b5;
+    color: white;
+}
+
+input#ordrbtn:hover {
+    cursor: pointer;
+}

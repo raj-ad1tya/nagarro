@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w33 {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w66 {
+    width: 66.66%;
+    padding: 10px;
+}
+
+.w75 {
+    width: 75%;
+}
+
+#profile-pic {
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.heading {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+#name {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+}
+
+.bg {
+    background-image: url("https://wallpapercave.com/wp/wp7453603.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #ffffffd9; /*#00000075;*/
+    height: 480px;
+    width: 720px;
+    border-radius: 20px;
+}
+
+.h-align {
+    justify-content: center;
+}
+
+.v-align {
+    align-items: center;
+}
+
+.nav {
+    font-size: 0;
+}
+
+.btn {
+    border: none;
+    background-color: #80808040;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn.active {
+    background: grey;
+    color: white;
+}
+
+.btn:hover {
+    background: #80808080;
+    color: white;
+}
+
+.skill-icons {
+    height: 80px;
+}
+
+.evenly {
+    justify-content: space-between;
+}
+
+.small {
+    font-size: 12px;
+}
+
+#skill-heading {
+    font-size: 20px;
+    padding: 10px;
+    border-top: 1px solid;
+}
+
+#ach-heading {
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fill {
+    flex: 1;
+}
+
+.connect-icons {
+    width: 50px;
+    margin: 15px 30px;
+}
+
+.connect-text {
+    font-size: 12px;
+}
+
+.tab {
+    display: none;
+    height: 0;
+}

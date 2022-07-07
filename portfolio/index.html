@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Raj's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="content col">
+            <div class="nav row h-align">
+                <button id="about-btn" class="btn" onclick="toggleTab('about')">about</button>
+                <button id="achievements-btn" class="btn" onclick="toggleTab('achievements')">achievements</button>
+                <button id="connect-btn" class="btn" onclick="toggleTab('connect')">connect</button>
+            </div>
+
+            <div class="tab" id="about">
+                <div class="fill row v-align">
+                    <div class="w50">
+                        <img id="profile-pic" src="https://icon-library.com/images/boy-icon-png/boy-icon-png-10.jpg" />
+                    </div>
+                    <div class="w50">
+                        <p class="info" id="name">ADITYA RAJ</p>
+                        <p class="info small">CSE | 7th Sem | 9.6 CGPA</p>
+                        <p class="info small">Asansol Engineering College</p>
+                        <p class="info small">Web development intern @ Nagarro</p>
+                    </div>    
+                </div>
+
+                <div class="col">
+                    <p id="skill-heading">Skills</p>
+                    <div class="row evenly">
+                            <img class="skill-icons" src="https://cdn.iconscout.com/icon/free/png-256/java-23-225999.png" />
+                            <img class="skill-icons" src="https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg" />
+                            <img class="skill-icons" src="https://cdn-icons-png.flaticon.com/512/2772/2772165.png" />
+                            <img class="skill-icons" src="https://icons-for-free.com/download-icon-html+html5+icon-1320185152054921895_512.png" />
+                            <img class="skill-icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab" id="achievements">
+                <div class="col">
+                    <p id="ach-heading">Achievements</p>
+                    <ul>
+                        <li>TCS CodeVita Season 10 Global Rank 791</li>
+                        <li>Qualified Infosys Certification Round Exam, PPI received for Systems Engineer</li>
+                        <li>Qualified TCS NQT Cognitive Test with 93.42%</li>
+                        <li>Among the Top 50 nationally in 5th CSI Discover Thinking Programming Contest</li>
+                        <li>Top 5% in NPTEL Certification Course on Problem Solving through Programming in C</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab" id="connect">
+                <div class="col">
+                    <div class="row v-align">
+                        <img class="connect-icons" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
+                        <p class="connect-text"><a href="https://www.linkedin.com/in/aditya-raj-work/">https://www.linkedin.com/in/aditya-raj-work/</a></p>
+                    </div>
+                    <div class="row v-align">
+                        <img class="connect-icons" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+                        <p class="connect-text"><a href="https://github.com/raj-ad1tya">https://github.com/raj-ad1tya</a></p>
+                    </div>
+                    <div class="row v-align">
+                        <img class="connect-icons" src="https://cdn-icons-png.flaticon.com/512/561/561127.png" />
+                        <p class="connect-text">Mail me at <a href="mailto:aditya09aeccse@gmail.com">aditya09aeccse@gmail.com</a></p>
+                    </div>
+                    <div class="row v-align">
+                        <img class="connect-icons" src="https://cdn-icons-png.flaticon.com/512/46/46854.png" />
+                        <p class="connect-text">Call me at <a href="tel:+917584046159">+91 7584046159</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

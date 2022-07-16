@@ -5,7 +5,7 @@ $(document).ready(function () {
                 '<p class="col-sm-8 m-0 bg-dark py-2 rounded">'+
                     $("#task-input").val()+
                 '</p>'+
-                '<i class="col-1 text-center fas fa-trash text-danger py-2"></i>'+
+                '<i class="col-sm-1 text-center fas fa-trash text-danger py-2"></i>'+
                 '</div>')
         );
         $("#task-input").val("");

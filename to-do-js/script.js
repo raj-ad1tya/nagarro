@@ -12,7 +12,7 @@ addbtn.addEventListener("click", function() {
 
 
         var ico = document.createElement("i");
-        ico.className = "col-1 text-center fas fa-trash text-danger py-2";
+        ico.className = "col-sm-1 text-center fas fa-trash text-danger py-2";
         div.appendChild(ico);
         ico.addEventListener("click", function() {
             this.parentNode.remove();

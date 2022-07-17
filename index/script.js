@@ -2,21 +2,33 @@ var websiteNames = [
     'Portfolio',
     'Pokemon',
     'To Do List (JS)',
-    'To Do List (JQuery)'
+    'To Do List (JQuery)',
+    'Form Validation',
+    'Copy Text',
+    'Modal Page',
+    'Image Slider'
 ];
 
 var repoLinks = [
     'https://github.com/raj-ad1tya/nagarro/tree/main/portfolio',
     'https://github.com/raj-ad1tya/nagarro/tree/main/pokemon',
+    'https://github.com/raj-ad1tya/nagarro/tree/main/to-do-jquery',
+    'https://github.com/raj-ad1tya/nagarro/tree/main/form-validation',
     'https://github.com/raj-ad1tya/nagarro/tree/main/to-do-js',
-    'https://github.com/raj-ad1tya/nagarro/tree/main/to-do-jquery'
+    'https://github.com/raj-ad1tya/nagarro/tree/main/copy-text',
+    'https://github.com/raj-ad1tya/nagarro/tree/main/modal-page',
+    'https://github.com/raj-ad1tya/nagarro/tree/main/image-slider'
 ];
 
 var hostedLinks = [
     'https://raj-ad1tya.github.io/nagarro/portfolio/',
     'https://raj-ad1tya.github.io/nagarro/pokemon/',
+    'https://raj-ad1tya.github.io/nagarro/to-do-jquery/',
+    'https://raj-ad1tya.github.io/nagarro/form-validation/',
     'https://raj-ad1tya.github.io/nagarro/to-do-js/',
-    'https://raj-ad1tya.github.io/nagarro/to-do-jquery/'
+    'https://raj-ad1tya.github.io/nagarro/copy-text/',
+    'https://raj-ad1tya.github.io/nagarro/modal-page/',
+    'https://raj-ad1tya.github.io/nagarro/image-slider/'
 ];
 
 $(document).ready(function () {
